@@ -1,1 +1,0 @@
-Upload the entire images folder to the repository root. These are visible placeholder WebP files. Replace each file later with an approved product image using the exact same filename. Do not rename the folder to images.txt.
