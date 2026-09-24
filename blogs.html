@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Home Wellness Blog | HomeWellnessDeal</title>
+  <meta name="description" content="Read practical home wellness articles covering indoor air, cooling, furniture, bathrooms, decor, kitchens, gifts and everyday comfort.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="canonical" href="https://homewellnessdeal.com/blogs.html">
+  <style>
+    :root{--ink:#0b1220;--muted:#64748b;--line:#e2e8f0;--green:#059669;--wash:#f8fafc;--white:#fff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--wash);color:var(--ink);font:14px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit;text-decoration:none}
+    button,input,select{font:inherit}
+    .wrap{width:min(1120px,100%);margin:auto;padding:0 14px}
+    header{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);background:#ffffffed;backdrop-filter:blur(12px)}
+    .bar{min-height:60px;display:flex;align-items:center;gap:14px}
+    .logo{font-size:18px;font-weight:900;white-space:nowrap}.logo b{color:var(--green)}
+    nav{display:flex;gap:13px;margin-left:auto;font-size:12px;font-weight:800}
+    .hero{margin:18px 0 24px;padding:34px 22px;border-radius:20px;background:linear-gradient(125deg,#07111f,#122640 65%,#0f766e);color:#fff}
+    .eyebrow{font-size:11px;font-weight:900;letter-spacing:.12em;color:#6ee7b7;text-transform:uppercase}
+    h1{max-width:760px;margin:8px 0;font-size:clamp(32px,7vw,56px);line-height:1.02;letter-spacing:-.04em}
+    .hero p{max-width:680px;margin:0;color:#cbd5e1}
+    .controls{display:grid;grid-template-columns:1fr auto;gap:9px;margin-bottom:18px}
+    .controls input,.controls select{min-height:42px;border:1px solid var(--line);border-radius:11px;background:#fff;padding:9px 12px;outline:0}
+    .controls input:focus,.controls select:focus{border-color:#10b981;box-shadow:0 0 0 3px #d1fae5}
+    .summary{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+    .summary h2{margin:0;font-size:22px}.count{color:var(--muted);font-size:12px}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .card{display:flex;min-width:0;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:15px;background:#fff;box-shadow:0 4px 14px #0f172a08;transition:transform .2s,box-shadow .2s}
+    .card:hover{transform:translateY(-2px);box-shadow:0 10px 25px #0f172a12}
+    .visual{display:grid;aspect-ratio:16/9;place-items:center;background:linear-gradient(145deg,#ecfdf5,#eff6ff);font-size:43px}
+    .content{display:flex;flex:1;flex-direction:column;padding:15px}
+    .category{color:#047857;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+    .card h3{margin:6px 0;font-size:18px;line-height:1.23;letter-spacing:-.02em}
+    .excerpt{margin:0;color:#475569;font-size:13px}
+    .meta{display:flex;justify-content:space-between;gap:8px;margin-top:auto;padding-top:15px;color:var(--muted);font-size:11px}
+    .read{display:block;margin-top:11px;border-radius:9px;background:var(--ink);padding:9px;text-align:center;color:#fff;font-size:12px;font-weight:900}
+    .empty{display:none;padding:50px 0;text-align:center;color:var(--muted)}
+    .more-note{margin:30px 0;padding:18px;border:1px dashed #6ee7b7;border-radius:14px;background:#ecfdf5;color:#065f46}
+    footer{margin-top:34px;background:var(--ink);padding:34px 0;color:#cbd5e1;font-size:12px}
+    .footer-links{display:flex;flex-wrap:wrap;gap:13px;margin-top:12px}
+    @media(max-width:760px){nav a:nth-child(n+3){display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.card h3{font-size:15px}.content{padding:11px}}
+    @media(max-width:430px){.wrap{padding:0 10px}.grid{grid-template-columns:1fr}.controls{grid-template-columns:1fr}.visual{aspect-ratio:2/1}.hero{padding:28px 18px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="index.html">HomeWellness<b>Deal</b></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Deals</a>
+      <a href="blogs.html" aria-current="page">Blogs</a>
+      <a href="guides/index.html">Guides</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">Home wellness insights</div>
+    <h1>Practical ideas for a healthier, more comfortable home.</h1>
+    <p>Explore straightforward articles about air quality, cooling, furniture, organization, decor, kitchens, gifting and seasonal home care.</p>
+  </section>
+
+  <section aria-labelledby="blog-heading">
+    <div class="summary">
+      <h2 id="blog-heading">Latest Articles</h2>
+      <span id="count" class="count">20 articles</span>
+    </div>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search blog articles" aria-label="Search blog articles">
+      <select id="category" aria-label="Filter by category">
+        <option value="all">All categories</option>
+      </select>
+    </div>
+
+    <div id="blogGrid" class="grid"></div>
+    <div id="empty" class="empty">No articles match your search.</div>
+  </section>
+
+  <aside class="more-note">
+    <strong>Easy to expand:</strong> Open this file, find <code>const blogs = [</code>, copy one blog object, update its details, and paste it before the closing bracket. The search, category filter and article count update automatically.
+  </aside>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>HomeWellnessDeal</strong>
+    <p>Independent home wellness content and affiliate shopping resources.</p>
+    <p><a href="mailto:agents@getservices.ai">agents@getservices.ai</a> · <a href="tel:+13137291534">313-729-1534</a></p>
+    <div class="footer-links">
+      <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const blogs = [
+  {id:1,title:"How to Improve Indoor Air Comfort Year-Round",category:"Air Quality",date:"2026-09-24",readTime:"7 min read",icon:"💨",url:"blogs/blog-01.html",excerpt:"Practical ways to manage humidity, ventilation and everyday indoor comfort."},
+  {id:2,title:"Humidifier vs. Dehumidifier: What Does Your Home Need?",category:"Air Quality",date:"2026-09-22",readTime:"8 min read",icon:"💧",url:"blogs/blog-02.html",excerpt:"Understand the difference and identify which type of moisture-control product fits your space."},
+  {id:3,title:"Small-Space Cooling Ideas for Hot Summer Days",category:"Cooling",date:"2026-09-20",readTime:"6 min read",icon:"❄️",url:"blogs/blog-03.html",excerpt:"Simple approaches for improving comfort in bedrooms, apartments and home offices."},
+  {id:4,title:"How to Choose a Portable Air Conditioner",category:"Cooling",date:"2026-09-18",readTime:"9 min read",icon:"🌬️",url:"blogs/blog-04.html",excerpt:"Compare room size, BTU guidance, drainage, noise and energy considerations before buying."},
+  {id:5,title:"Furniture Ideas for a More Organized Home",category:"Furniture",date:"2026-09-16",readTime:"7 min read",icon:"🪑",url:"blogs/blog-05.html",excerpt:"Explore space-conscious furniture that combines everyday function with useful storage."},
+  {id:6,title:"Small Living Room Layout Mistakes to Avoid",category:"Furniture",date:"2026-09-14",readTime:"6 min read",icon:"🛋️",url:"blogs/blog-06.html",excerpt:"Improve movement, balance and usability without making a compact room feel crowded."},
+  {id:7,title:"Simple Bathroom Upgrades That Make a Difference",category:"Bathroom",date:"2026-09-12",readTime:"6 min read",icon:"🛁",url:"blogs/blog-07.html",excerpt:"Low-complexity ideas for bathroom storage, organization and daily convenience."},
+  {id:8,title:"A Practical Bathroom Organization Checklist",category:"Bathroom",date:"2026-09-10",readTime:"5 min read",icon:"🧴",url:"blogs/blog-08.html",excerpt:"Create a cleaner routine with zones for vanities, showers, towels and backup supplies."},
+  {id:9,title:"How to Choose Wall Art for Every Room",category:"Decor",date:"2026-09-08",readTime:"7 min read",icon:"🖼️",url:"blogs/blog-09.html",excerpt:"Use scale, color and placement to choose art that works with your room instead of against it."},
+  {id:10,title:"Personalized Gift Ideas for New Homeowners",category:"Gifts",date:"2026-09-06",readTime:"6 min read",icon:"🎁",url:"blogs/blog-10.html",excerpt:"Thoughtful housewarming ideas that feel personal, useful and appropriate for the recipient."},
+  {id:11,title:"Kitchen Knife Basics for Everyday Home Cooking",category:"Kitchen",date:"2026-09-04",readTime:"8 min read",icon:"🔪",url:"blogs/blog-11.html",excerpt:"Learn the essential knife types, materials and care habits most home kitchens need."},
+  {id:12,title:"How to Compare Kitchen Knife Sets",category:"Kitchen",date:"2026-09-02",readTime:"8 min read",icon:"🍳",url:"blogs/blog-12.html",excerpt:"Focus on useful pieces, blade construction, handles, maintenance and storage."},
+  {id:13,title:"Creative Building Sets for Family Time",category:"Creative Play",date:"2026-08-31",readTime:"5 min read",icon:"🧱",url:"blogs/blog-13.html",excerpt:"Ideas for choosing collaborative building activities suited to different interests and skill levels."},
+  {id:14,title:"How to Display Finished Building Models at Home",category:"Creative Play",date:"2026-08-29",readTime:"5 min read",icon:"🏗️",url:"blogs/blog-14.html",excerpt:"Keep completed models organized, visible and protected without overwhelming the room."},
+  {id:15,title:"A Seasonal Home Wellness Checklist",category:"Home Care",date:"2026-08-27",readTime:"9 min read",icon:"🏡",url:"blogs/blog-15.html",excerpt:"Use a repeatable seasonal checklist for comfort, organization and household maintenance."},
+  {id:16,title:"Preparing Your Home for Dry Winter Air",category:"Air Quality",date:"2026-08-25",readTime:"7 min read",icon:"🌡️",url:"blogs/blog-16.html",excerpt:"Review humidity, heating habits and room-by-room comfort before cold weather arrives."},
+  {id:17,title:"Managing Basement and Crawl Space Moisture",category:"Air Quality",date:"2026-08-23",readTime:"9 min read",icon:"🏠",url:"blogs/blog-17.html",excerpt:"Learn which warning signs deserve attention and what to compare when considering moisture control."},
+  {id:18,title:"Home Office Comfort Improvements on a Budget",category:"Home Care",date:"2026-08-21",readTime:"6 min read",icon:"💻",url:"blogs/blog-18.html",excerpt:"Make a workspace more comfortable through layout, air movement, lighting and organization."},
+  {id:19,title:"A Room-by-Room Decluttering Plan",category:"Organization",date:"2026-08-19",readTime:"8 min read",icon:"📦",url:"blogs/blog-19.html",excerpt:"Break household organization into manageable zones with a simple decision process."},
+  {id:20,title:"What to Check Before Buying Home Products Online",category:"Buying Tips",date:"2026-08-17",readTime:"7 min read",icon:"🛒",url:"blogs/blog-20.html",excerpt:"Review dimensions, specifications, warranties, returns and merchant terms before purchasing."}
+];
+
+const grid = document.getElementById("blogGrid");
+const search = document.getElementById("search");
+const category = document.getElementById("category");
+const count = document.getElementById("count");
+const empty = document.getElementById("empty");
+
+[...new Set(blogs.map(blog => blog.category))].sort().forEach(name => {
+  const option = document.createElement("option");
+  option.value = name;
+  option.textContent = name;
+  category.appendChild(option);
+});
+
+function formatDate(value) {
+  return new Intl.DateTimeFormat("en-US", {year:"numeric",month:"short",day:"numeric"}).format(new Date(value + "T12:00:00"));
+}
+
+function renderBlogs() {
+  const query = search.value.trim().toLowerCase();
+  const selected = category.value;
+  const filtered = blogs.filter(blog => {
+    const matchesSearch = `${blog.title} ${blog.category} ${blog.excerpt}`.toLowerCase().includes(query);
+    const matchesCategory = selected === "all" || blog.category === selected;
+    return matchesSearch && matchesCategory;
+  });
+
+  grid.innerHTML = filtered.map(blog => `
+    <article class="card">
+      <div class="visual" aria-hidden="true">${blog.icon}</div>
+      <div class="content">
+        <div class="category">${blog.category}</div>
+        <h3>${blog.title}</h3>
+        <p class="excerpt">${blog.excerpt}</p>
+        <div class="meta"><span>${formatDate(blog.date)}</span><span>${blog.readTime}</span></div>
+        <a class="read" href="${blog.url}" aria-label="Read ${blog.title}">Read article</a>
+      </div>
+    </article>`).join("");
+
+  count.textContent = `${filtered.length} ${filtered.length === 1 ? "article" : "articles"}`;
+  empty.style.display = filtered.length ? "none" : "block";
+}
+
+search.addEventListener("input", renderBlogs);
+category.addEventListener("change", renderBlogs);
+renderBlogs();
+</script>
+</body>
+</html>
