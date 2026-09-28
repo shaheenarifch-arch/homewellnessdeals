@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://homewellnessdeal.com/sitemap.xml
+Sitemap: https://homewellnessdeals.com/sitemap.xml
