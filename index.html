@@ -38,14 +38,14 @@ a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible,[
 .feature-pic::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,24,40,0) 30%,rgba(16,24,40,.35) 55%,rgba(16,24,40,.82) 100%)}
 .feature-pic span{position:absolute;right:14px;top:14px;z-index:1;background:#ffffffeb;color:#101828;border-radius:999px;padding:7px 12px;font-size:11px;font-weight:800;white-space:nowrap}
 /* LitONES photo fills the right half of the hero */
-.hero-lit{padding:0;overflow:hidden;align-items:stretch;gap:0}
+.hero-lit{padding:0;overflow:hidden;align-items:stretch;gap:0;grid-template-columns:1fr 1fr}
 .hero-lit .hero-copy{padding:clamp(28px,4.5vw,64px);align-self:center}
 .hero-lit .hero-product{aspect-ratio:auto;min-height:100%;border-radius:0;box-shadow:none}
 .hero-lit .hero-product:hover{transform:none}
-.hero-lit .hero-product img{object-fit:cover;padding:0;transition:transform .6s}
+.hero-lit .hero-product img{object-fit:cover;object-position:0% 30%;padding:0;transition:transform .6s;transform-origin:left center}
 .hero-lit .hero-product:hover img{transform:scale(1.04)}
 .hero-tag{left:auto;right:18px;bottom:18px}
-@media(max-width:900px){.hero-lit .hero-product{min-height:0;aspect-ratio:4/3;order:-1}}
+@media(max-width:900px){.hero-lit{grid-template-columns:1fr}.hero-lit .hero-product{min-height:0;aspect-ratio:4/3;order:-1}}
 @media(max-width:650px){.feature{min-height:220px}.feature-pic span{font-size:10px;padding:5px 9px}}
 </style></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="wrap header-inner"><a class="logo" href="/">HomeWellness<i>Deal</i></a><button aria-controls="nav" aria-expanded="false" aria-label="Open navigation menu" class="menu" type="button">Menu</button><nav aria-label="Primary" class="nav" id="nav"><a href="/">Home</a><a href="/furniture/">Furniture</a><a href="/lighting/">Lighting</a><a href="/personalized-gifts/">Personalized Gifts</a><a href="/home-wellness/">Home Wellness</a><a href="/home-projects/">Home Projects</a><a href="/blog/">Guides</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav><input aria-controls="search-status" aria-label="Search products" autocomplete="off" class="search" id="search" placeholder="Search products" type="search"/></div></header><div class="notice">Affiliate disclosure: qualifying purchases may earn us a commission at no extra cost to you.</div><main class="wrap" id="main"><section class="hero"><div class="hero-main hero-lit">
 <div class="hero-copy">
