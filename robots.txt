@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+# Build inputs for the LitONES carousel, not pages
+Disallow: /litones_carousel_22_items.html
+Disallow: /litones_carousel_standalone_preview.html
 
 Sitemap: https://homewellnessdeals.com/sitemap.xml
