@@ -1,0 +1,75 @@
+{
+  "updated": "2026-10-22",
+  "promos": [
+    {
+      "mid": "126513",
+      "brand": "Argendon",
+      "headline": "Halloween sale: up to 30% off select dehumidifiers",
+      "ends": "2026-10-31",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=126513&awinaffid=3067297",
+      "id": "126513-halloween-sale-up-to-30-off-select-dehumidifiers",
+      "code": ""
+    },
+    {
+      "mid": "126513",
+      "brand": "Argendon",
+      "headline": "Extra 7% off the XStorm Pro",
+      "code": "AWXStormpro",
+      "ends": "2026-11-04",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=126513&awinaffid=3067297",
+      "id": "126513-awxstormpro"
+    },
+    {
+      "mid": "126513",
+      "brand": "Argendon",
+      "headline": "Extra 5% off the Sandidry Pro 35C",
+      "code": "AWSandidry",
+      "ends": "2026-11-04",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=126513&awinaffid=3067297",
+      "id": "126513-awsandidry"
+    },
+    {
+      "mid": "126513",
+      "brand": "Argendon",
+      "headline": "Extra 5% off the Guardian 60",
+      "code": "AWGuardian60",
+      "ends": "2026-11-04",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=126513&awinaffid=3067297",
+      "id": "126513-awguardian60"
+    },
+    {
+      "mid": "126513",
+      "brand": "Argendon",
+      "headline": "Extra 3% off the Shield 35M",
+      "code": "AW35M",
+      "ends": "2026-11-04",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=126513&awinaffid=3067297",
+      "id": "126513-aw35m"
+    },
+    {
+      "mid": "78080",
+      "brand": "Imarku",
+      "headline": "Halloween sale: 30% off new arrivals + free gifts",
+      "ends": "2026-10-31",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=78080&awinaffid=3067297",
+      "id": "78080-halloween-sale-30-off-new-arrivals-free-gifts",
+      "code": ""
+    },
+    {
+      "mid": "122418",
+      "brand": "Plunge Chill",
+      "headline": "10% off the Plunge Chill Pro cold plunge",
+      "code": "PLAFF10",
+      "ends": "2026-11-15",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=122418&awinaffid=3067297",
+      "id": "122418-plaff10"
+    }
+  ]
+}
