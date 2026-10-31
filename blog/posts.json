@@ -33,5 +33,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 8.42
+  },
+  {
+    "keyword": "Healthier home complete guide: air, sleep, comfort and wellness products",
+    "title": "Healthier Home Guide: Air, Sleep, Comfort, Wellness",
+    "description": "Healthier home complete guide: air, sleep, comfort and wellness products covering key concepts, mistakes, and a step-by-step decision framework.",
+    "file": "healthier-home-complete-guide-air-sleep-comfort-and-wellness-products.html",
+    "date": "2026-10-31",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.97,
+    "risk_level": "medium",
+    "requires_human_review": true,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.25
   }
 ]
