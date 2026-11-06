@@ -33,5 +33,61 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 8.42
+  },
+  {
+    "keyword": "Healthier home complete guide: air, sleep, comfort and wellness products",
+    "title": "Healthier Home Guide: Air, Sleep, Comfort, Wellness",
+    "description": "Healthier home complete guide: air, sleep, comfort and wellness products covering key concepts, mistakes, and a step-by-step decision framework.",
+    "file": "healthier-home-complete-guide-air-sleep-comfort-and-wellness-products.html",
+    "date": "2026-10-31",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.97,
+    "risk_level": "medium",
+    "requires_human_review": true,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.25
+  },
+  {
+    "keyword": "how to choose the right pint dehumidifier for basements",
+    "title": "How to Choose the Right Pint Dehumidifier for Basements",
+    "description": "Learn how to choose the right pint dehumidifier for basements, covering capacity, drainage, controls, common mistakes, and what to verify before buying.",
+    "file": "how-to-choose-the-right-pint-dehumidifier-for-basements.html",
+    "date": "2026-11-02",
+    "archetype": "buying_guide",
+    "archetype_confidence": 0.71,
+    "risk_level": "medium",
+    "requires_human_review": true,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.56
+  },
+  {
+    "keyword": "best crawl space dehumidifier with pump for wet basements",
+    "title": "Best Crawl Space Dehumidifier With Pump for Wet Basements",
+    "description": "Compare the best crawl space dehumidifier with pump for wet basements, including AlorAir and Argendon models, pump specs, capacities, and buying tips today.",
+    "file": "best-crawl-space-dehumidifier-with-pump-for-wet-basements.html",
+    "date": "2026-11-03",
+    "archetype": "best_products",
+    "archetype_confidence": 0.97,
+    "risk_level": "medium",
+    "requires_human_review": true,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.56
+  },
+  {
+    "keyword": "extreme pint dehumidifier for basement flooding situations",
+    "title": "Extreme Pint Dehumidifier for Basement Flooding Situations",
+    "description": "Compare extreme pint dehumidifier for basement flooding situations options by capacity, drainage, and coverage to find the right fit for your home.",
+    "file": "extreme-pint-dehumidifier-for-basement-flooding-situations.html",
+    "date": "2026-11-06",
+    "archetype": "comparison",
+    "archetype_confidence": 0.57,
+    "risk_level": "medium",
+    "requires_human_review": true,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.41
   }
 ]
