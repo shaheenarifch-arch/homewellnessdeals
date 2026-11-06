@@ -1,6 +1,6 @@
 # HomeWellnessDeal
 
-This site publishes buying guides and product recommendations. Some links are affiliate links; see the affiliate disclosure page.
+> This site publishes buying guides and product recommendations. Some links are affiliate links; see the affiliate disclosure page.
 
 ## Pages
 - [HomeWellnessDeal](https://homewellnessdeals.com/)
